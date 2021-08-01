@@ -1,0 +1,27 @@
+From 85dd185b938a93e230614f08ad2a7dba80132f6f Mon Sep 17 00:00:00 2001
+From: Patryk Mól <patryk.mol91@gmail.com>
+Date: Sun, 1 Aug 2021 22:59:23 +0200
+Subject: [PATCH] Change colors
+
+---
+ config.h | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/config.h b/config.h
+index 6eb9b7c..323da94 100644
+--- a/config.h
++++ b/config.h
+@@ -3,8 +3,8 @@ static struct Config config = {
+ 	.font = "monospace:size=9,DejaVuSansMono:size=9",
+ 
+ 	/* colors */
+-	.background_color = "#FFFFFF",
+-	.foreground_color = "#2E3436",
++	.background_color = "#282C34",
++	.foreground_color = "#BBBBBB",
+ 	.selbackground_color = "#3584E4",
+ 	.selforeground_color = "#FFFFFF",
+ 	.separator_color = "#CDC7C2",
+--
+libgit2 1.1.1
+
